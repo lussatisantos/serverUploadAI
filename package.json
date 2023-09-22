@@ -7,7 +7,7 @@
     "dev": "tsx watch src/server.ts"
   },
   "keywords": [],
-  "author": "",
+  "author": "Lussati Santos",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.6.3",
@@ -17,6 +17,7 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
+    "@fastify/cors": "^8.4.0",
     "@fastify/multipart": "^7.7.3",
     "@prisma/client": "5.3.1",
     "fastify": "^4.23.2",
