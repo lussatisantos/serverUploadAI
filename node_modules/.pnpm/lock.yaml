@@ -13,6 +13,9 @@ devDependencies:
   '@types/node':
     specifier: ^20.6.3
     version: 20.6.3
+  prisma:
+    specifier: ^5.3.1
+    version: 5.3.1
   tsx:
     specifier: ^3.12.10
     version: 3.12.10
@@ -262,6 +265,11 @@ packages:
     dependencies:
       fast-json-stringify: 5.8.0
     dev: false
+
+  /@prisma/engines@5.3.1:
+    resolution: {integrity: sha512-6QkILNyfeeN67BNEPEtkgh3Xo2tm6D7V+UhrkBbRHqKw9CTaz/vvTP/ROwYSP/3JT2MtIutZm/EnhxUiuOPVDA==}
+    requiresBuild: true
+    dev: true
 
   /@types/node@20.6.3:
     resolution: {integrity: sha512-HksnYH4Ljr4VQgEy2lTStbCKv/P590tmPe5HqOnv9Gprffgv5WXAY+Y5Gqniu0GGqeTCUdBnzC3QSrzPkBkAMA==}
@@ -547,6 +555,15 @@ packages:
       sonic-boom: 3.3.0
       thread-stream: 2.4.0
     dev: false
+
+  /prisma@5.3.1:
+    resolution: {integrity: sha512-Wp2msQIlMPHe+5k5Od6xnsI/WNG7UJGgFUJgqv/ygc7kOECZapcSz/iU4NIEzISs3H1W9sFLjAPbg/gOqqtB7A==}
+    engines: {node: '>=16.13'}
+    hasBin: true
+    requiresBuild: true
+    dependencies:
+      '@prisma/engines': 5.3.1
+    dev: true
 
   /process-warning@2.2.0:
     resolution: {integrity: sha512-/1WZ8+VQjR6avWOgHeEPd7SDQmFQ1B5mC1eRXsCm5TarlNmx/wCsa5GEaxGm05BORRtyG/Ex/3xq3TuRvq57qg==}
