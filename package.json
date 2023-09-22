@@ -16,6 +16,7 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
+    "@prisma/client": "5.3.1",
     "fastify": "^4.23.2"
   }
 }
